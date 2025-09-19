@@ -51,6 +51,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
 }
 
 dependencies {
+implementation("androidx.activity:activity-ktx:1.8.0")
 
     implementation(platform("androidx.compose:compose-bom:2022.10.00"))
 
